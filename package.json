@@ -2,7 +2,8 @@
   "name": "vwlogin",
   "version": "0.0.0",
   "engines": {
-    "node": "16.13.2"
+    "node": "16.13.2",
+    "npm": "8.3.2"
   },
   "scripts": {
     "ng": "ng",
