@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PanelBelowComponent } from './panel-below.component';
+import { LoginCompleteComponent } from './login-complete.component';
 
-describe('PanelBelowComponent', () => {
-  let component: PanelBelowComponent;
-  let fixture: ComponentFixture<PanelBelowComponent>;
+describe('LoginCompleteComponent', () => {
+  let component: LoginCompleteComponent;
+  let fixture: ComponentFixture<LoginCompleteComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PanelBelowComponent ]
+      declarations: [ LoginCompleteComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PanelBelowComponent);
+    fixture = TestBed.createComponent(LoginCompleteComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

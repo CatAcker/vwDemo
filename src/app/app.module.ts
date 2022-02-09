@@ -4,13 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { VWLandingPageComponent } from './vwlanding-page/vwlanding-page.component';
-import { PanelBelowComponent } from './panel-below/panel-below.component';
+import { LoginCompleteComponent } from './login-complete/login-complete.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     VWLandingPageComponent,
-    PanelBelowComponent
+    LoginCompleteComponent
   ],
   imports: [
     BrowserModule,
